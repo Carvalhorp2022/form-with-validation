@@ -34,6 +34,12 @@ do input deve ficar verde e não haverá a mensagem de "campo obrigatório", já
 
 <img src="./src/image/versaoMobile.png">
 
+<p >Para uma melhor experiência acessem:
+      <a  href=https://carvalhorp2022.github.io/form-with-validation/ target="_blank">Formulário</a>
+</p>
+
+
+
 
 
 
