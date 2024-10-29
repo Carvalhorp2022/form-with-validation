@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Form with verification</title>
+</head>
+<body>
+    <main>
+        
+        <div class="info">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>  
+            <form class="formulario">
+
+                <input type="text" class="input-text nome" placeholder="Nome completo *">
+                <p class="alerta prenchimento-obrigatorio">campos obrigatório</p>
+    
+                <input type="text" class="input-text email" name="email" placeholder="Email *">
+                <p class="alerta prenchimento-obrigatorio">campos obrigatórios</p>
+    
+                <input type="number" class="input-text telefone" placeholder="Telefone *">
+                <p class="alerta prenchimento-obrigatorio">campos obrigatórios</p>
+                
+                <textarea class="input-text mensagem" placeholder="Mensagem *"></textarea>
+                <p class="alerta prenchimento-obrigatorio">campos obrigatórios</p>
+                              
+                <p class="campos-obrigatorio">*campos obrigatórios</p>
+
+                <button type="button" class="btn-enviar">Enviar</button>
+            </form>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
